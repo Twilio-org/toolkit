@@ -10,8 +10,8 @@ Use this app to broadcast SMS messages to large numbers of people.
 
 | Variable | Description |
 | --- | --- |
-| `SB\_NOTIFY\_SERVICE\_SID` | The [Notify service](https://www.twilio.com/console/notify/services) you wish to use to send outbound SMS - must have a [Messaging Service](https://www.twilio.com/console/sms/services) associated with it (see docs below) |
-| `SB_BROADCAST_ADMIN_NUMBERS` | A comma separated list of [E.164 formatted](https://en.wikipedia.org/wiki/E.164) phone numbers for people that can use the `broadcast` command. e.g. `+16512225555,+14156667777` |
+| `TTK_BROADCAST_NOTIFY_SERVICE_SID` | The [Notify service](https://www.twilio.com/console/notify/services) you wish to use to send outbound SMS - must have a [Messaging Service](https://www.twilio.com/console/sms/services) associated with it (see docs below) |
+| `TTK_BROADCAST_ADMIN_NUMBERS` | A comma separated list of [E.164 formatted](https://en.wikipedia.org/wiki/E.164) phone numbers for people that can use the `broadcast` command. e.g. `+16512225555,+14156667777` |
 
 ## Required npm Modules
 
