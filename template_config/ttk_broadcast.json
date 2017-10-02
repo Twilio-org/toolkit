@@ -1,0 +1,43 @@
+{
+    "key": "ttk_broadcast",
+    "icon": "icon-twilio-sms",
+    "product": "Programmable SMS",
+    "name": "Twilio.org Toolkit: SMS Broadcast",
+    "description": "Build a subscriber list and allow administrators to send a broadcast to subscribers.",
+    "includeCredentials": true,
+    "instructions": [],
+    "visibility": [
+        "console",
+        "console-ui"
+    ],
+    "tags": [
+        "sms",
+        "notify",
+        "twilio-org-toolkit"
+    ],
+    "functions": [
+        {
+            "route": "/ttk_broadcast",
+            "friendlyName": "SMS Subscribe/Broadcast",
+            "eventName": "sms.incoming",
+            "accessControl": "private",
+            "interfaceType": "simple",
+            "reference": "ttk_broadcast"
+        }
+    ],
+    "assets": [],
+    "environmentVariables": [
+        {
+            "key": "TTK_BROADCAST_NOTIFY_SERVICE_SID",
+            "format": "^IS[A-FZa-f0-9]{32}$",
+            "description": "Notify Service SID for delivering SMS messages",
+            "required": true
+        },
+        {
+            "key": "TTK_BROADCAST__ADMIN_NUMBERS",
+            "format": ".*",
+            "description": "Comma-separated list of E.164 formatted numbers for administrators who can send broadcasts, e.g. +16512223332,+14159998888",
+            "required": true
+        }
+    ]
+}

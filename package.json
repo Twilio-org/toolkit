@@ -1,0 +1,36 @@
+{
+  "name": "twilio-org-toolkit",
+  "version": "1.0.0",
+  "description": "Twilio.org Toolkit for Nonprofits",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ignore assets,docs,node_modules,template_config index.js",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twilio-org/toolkit.git"
+  },
+  "keywords": [
+    "twilio",
+    "socialenterprise",
+    "serverless",
+    "nonprofits"
+  ],
+  "author": "Twilio and Community Contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Twilio-org/toolkit/issues"
+  },
+  "homepage": "https://github.com/Twilio-org/toolkit#readme",
+  "dependencies": {
+    "twilio": "^3.6.7"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.5",
+    "nodemon": "^1.12.1",
+    "standard": "^10.0.3"
+  }
+}
