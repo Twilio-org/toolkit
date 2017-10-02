@@ -12,7 +12,7 @@ Each of the apps below require some degree of Twilio configuration. Each will de
 
 | App Name | Description |
 | --- | --- |
-| [SMS Broadcast](docs/broadcast.md) | Send SMS broadcasts to large numbers of people |
+| [SMS Broadcast](docs/broadcast.md) | Allow end users to subscribe for SMS updates. Quickly send SMS broadcasts to large subscriber lists. |
 
 ## Contributors
 
