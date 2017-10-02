@@ -1,8 +1,8 @@
 {
-    "key": "ttk_broadcast",
+    "key": "ttk-broadcast",
     "icon": "icon-twilio-sms",
     "product": "Programmable SMS",
-    "name": "Twilio.org Toolkit: SMS Broadcast",
+    "name": "SMS Subscribe/Broadcast",
     "description": "Build a subscriber list and allow administrators to send a broadcast to subscribers.",
     "includeCredentials": true,
     "instructions": [],
@@ -18,11 +18,11 @@
     "functions": [
         {
             "route": "/ttk_broadcast",
-            "friendlyName": "SMS Subscribe/Broadcast",
+            "friendlyName": "Twilio.org Toolkit: SMS Subscribe/Broadcast",
             "eventName": "sms.incoming",
             "accessControl": "private",
             "interfaceType": "simple",
-            "reference": "ttk_broadcast"
+            "reference": "ttk-broadcast"
         }
     ],
     "assets": [],
