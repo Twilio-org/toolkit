@@ -1,6 +1,6 @@
-# The Twilio.org Toolkit for Nonprofits
+# The Twilio.org Toolkit
 
-The Twilio.org Toolkit for Nonprofits is a collection of open source communications tools that can be quickly deployed by anyone with a Twilio account. As much as possible, we strive to make these tools usable by people from a variety of technical and non-technical disciplines and exerpience levels.
+The Twilio.org Toolkit is a collection of open source communications tools that can be quickly deployed by anyone with a Twilio account. As much as possible, we strive to make these tools usable by people from a variety of technical and non-technical disciplines and exerpience levels.
 
 The Toolkit is composed of several "mini apps" which are powered by Twilio Functions, Assets, and other Twilio APIs and tools. The goal is to try and provide full solutions only using Twilio APIs to minimize setup time and confusion, especially for folks that are newer to deploying web apps or communication technology.
 
