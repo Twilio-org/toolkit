@@ -3,9 +3,7 @@
 This application is part of the Twilio.org Toolkit for Nonprofits.
 For complete documentation on how to use this function, please visit:
 
-https://github.com/Twilio-org/toolkit
-
-for usage and setup instructions.
+https://github.com/Twilio-org/toolkit/blob/master/docs/broadcast.md
 
 */
 
