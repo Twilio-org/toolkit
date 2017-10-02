@@ -60,4 +60,4 @@ Once your phone number is set up, folks can text anything to it to receive a bri
 * `start` - uses Twilio's built-in features to opt a user back in to receiving messages
 * `broadcast <message content>` - Administrators can use the broadcast command to send a message out to all subscribed users. Not included in help text.
 
-To edit the copy for any of the messages, open the `sb_broadcast` function code and look for the text strings at the top of the file.
+To edit the copy for any of the messages, open the function code and look for the text strings at the top of the file.
