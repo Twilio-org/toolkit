@@ -37,19 +37,13 @@ You will need the generated SID for this service to configure your environment i
 
 Don't forget to save your changes!
 
-### Configure your environment variables
+### Deploy the Function template
 
-In the console, [go to the Functions configuration page](https://www.twilio.com/console/runtime/functions/configure). Create the two environment variables listed in the table at the top of the page. Use the Notify service SID from the last step for the first variable. For the second, enter a list of phone numbers for "administrators" of the application who will be able to use the `broadcast` command to send messages out to the entire group. The variable changes should auto-save.
+In the console, navigate to the [Runtime config page for Functions](https://www.twilio.com/console/runtime/functions/manage). Click the red "add" button to create a new Function, and choose the "SMS Broadcast" template. 
 
-Now we're ready to deploy our Function.
+Populate the required environment variables, as documented above. Use the Notify Service SID from the Notify service you created during the setup steps. Add "admin" phone numbers for folks you'd like to be able to broadcast messages.
 
-### Create the Broadcast/Subscribe Function
-
-In the console, [go to the Functions page](https://www.twilio.com/console/runtime/functions/manage) and create a new Blank function. 
-
-Paste in the code from the [`sb_broadcast`](../functions/sb_broadcast.js) example function in the Rapid Response Kit repository in the browser text editor. Give the Function the route `/sb_broadcast`. Copy the final Function URL to your clipboard, as you will need it in the final configuration step.
-
-Hit the "Save" button to deploy your Function!
+In a few moments your Function should be deployed! Grab its URL from the configuration screen, as we will now need to configure it for incoming SMS messages to our Messaging service.
 
 ### Handle incoming messages with your Function
 
