@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Twilio-org/toolkit#readme",
   "dependencies": {
+    "request": "^2.85.0",
     "twilio": "^3.6.7"
   },
   "devDependencies": {
