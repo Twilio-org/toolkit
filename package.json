@@ -24,14 +24,15 @@
   },
   "homepage": "https://github.com/Twilio-org/toolkit#readme",
   "dependencies": {
-    "request": "^2.85.0",
-    "twilio": "^3.6.7"
+    "request": "^2.87.0",
+    "twilio": "^3.18.0"
   },
   "devDependencies": {
+    "airtable": "^0.5.6",
     "body-parser": "^1.18.2",
     "dotenv": "^4.0.0",
     "express": "^4.15.5",
-    "nodemon": "^1.12.1",
+    "nodemon": "^1.18.3",
     "standard": "^10.0.3"
   }
 }
